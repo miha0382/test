@@ -113,6 +113,23 @@ $curPage = $APPLICATION->GetCurPage(true);
 								</div>
 							</div>
 						</div>
+						
+						<div class="p-lg-3 p-1">
+							<div class="bx-header-test-text">
+								
+									<?$APPLICATION->IncludeComponent(
+										"bitrix:main.include",
+										"",
+										array(
+											"AREA_FILE_SHOW" => "file",
+											"PATH" => SITE_DIR."include/test_text.php"
+										),
+										false
+									);?>
+								
+							</div>
+						</div>
+						
 					</div>
 				</div>
 			</div>
