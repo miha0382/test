@@ -129,6 +129,21 @@
 							);?>
 						</div>
 						<div id="bx-composite-banner" style="padding-top: 20px"></div>
+						
+						<div class="my-3 mx-3 text-white">
+						    <h1>
+							<? $APPLICATION->IncludeComponent(
+								"bitrix:main.include",
+								"",
+								array(
+									"AREA_FILE_SHOW" => "file",
+									"PATH" => SITE_DIR."include/hello_world_text.php"
+								),
+								false
+							);?>
+							</h1>
+						</div>
+						
 					</div>
 					<div class="col-sm-6 col-lg-3 order-lg-1 order-4">
 						<div class="mb-3">
